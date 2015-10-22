@@ -1,0 +1,153 @@
+Script started on Thu Oct 22 10:24:07 2015
+
+xcodebuild build -project XIBUIExample.xcodeproj -configuration Debug -sdk iphoneos
+
+Build settings from command line:
+    SDKROOT = iphoneos9.1
+
+=== BUILD TARGET XIBUIExample OF PROJECT XIBUIExample WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-all-non-framework-target-headers.hmap
+write-file /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-generated-files.hmap
+write-file /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-all-target-headers.hmap
+write-file /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-project-headers.hmap
+/bin/mkdir -p /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7
+write-file /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/XIBUIExample.LinkFileList
+write-file /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample.hmap
+write-file /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-own-target-headers.hmap
+
+Create product structure
+/bin/mkdir -p /Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/XIBUIExample.app
+
+CompileC build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/AppDelegate.o XIBUIExample/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=104 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/var/folders/dy/tswrpcq949sg7_ywqkmvf5txqvb7l2/C/org.llvm.clang/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=9.1 -g -Wno-sign-conversion -fembed-bitcode-marker -iquote /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-generated-files.hmap -I/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-own-target-headers.hmap -I/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-all-target-headers.hmap -iquote /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-project-headers.hmap -I/Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/include -I/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/DerivedSources/armv7 -I/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/DerivedSources -F/Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/AppDelegate.dia -c /Users/mbrenneke/devel/XIBUIExample/XIBUIExample/AppDelegate.m -o /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/AppDelegate.o
+
+CompileC build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/SimpleTableViewController.o XIBUIExample/SimpleTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=104 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/var/folders/dy/tswrpcq949sg7_ywqkmvf5txqvb7l2/C/org.llvm.clang/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=9.1 -g -Wno-sign-conversion -fembed-bitcode-marker -iquote /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-generated-files.hmap -I/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-own-target-headers.hmap -I/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-all-target-headers.hmap -iquote /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-project-headers.hmap -I/Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/include -I/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/DerivedSources/armv7 -I/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/DerivedSources -F/Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/SimpleTableViewController.d --serialize-diagnostics /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/SimpleTableViewController.dia -c /Users/mbrenneke/devel/XIBUIExample/XIBUIExample/SimpleTableViewController.m -o /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/SimpleTableViewController.o
+
+CompileC build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/main.o XIBUIExample/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=104 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/var/folders/dy/tswrpcq949sg7_ywqkmvf5txqvb7l2/C/org.llvm.clang/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=9.1 -g -Wno-sign-conversion -fembed-bitcode-marker -iquote /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-generated-files.hmap -I/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-own-target-headers.hmap -I/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-all-target-headers.hmap -iquote /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample-project-headers.hmap -I/Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/include -I/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/DerivedSources/armv7 -I/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/DerivedSources -F/Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/main.dia -c /Users/mbrenneke/devel/XIBUIExample/XIBUIExample/main.m -o /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/main.o
+
+Ld build/Debug-iphoneos/XIBUIExample.app/XIBUIExample normal armv7
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export IPHONEOS_DEPLOYMENT_TARGET=9.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk -L/Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos -F/Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos -filelist /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/XIBUIExample.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -miphoneos-version-min=9.1 -dead_strip -fembed-bitcode-marker -fobjc-arc -fobjc-link-runtime -Xlinker -dependency_info -Xlinker /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Objects-normal/armv7/XIBUIExample_dependency_info.dat -o /Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/XIBUIExample.app/XIBUIExample
+
+CompileAssetCatalog build/Debug-iphoneos/XIBUIExample.app XIBUIExample/Assets.xcassets
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/assetcatalog_dependencies --output-partial-info-plist /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/assetcatalog_generated_info.plist --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --target-device iphone --target-device ipad --minimum-deployment-target 9.1 --platform iphoneos --compile /Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/XIBUIExample.app /Users/mbrenneke/devel/XIBUIExample/XIBUIExample/Assets.xcassets
+/* com.apple.actool.compilation-results */
+/Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/assetcatalog_generated_info.plist
+
+
+CompileStoryboard XIBUIExample/Base.lproj/LaunchScreen.storyboard
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module XIBUIExample --output-partial-info-plist /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/LaunchScreen-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 9.1 --output-format human-readable-text --compilation-directory /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Base.lproj /Users/mbrenneke/devel/XIBUIExample/XIBUIExample/Base.lproj/LaunchScreen.storyboard
+
+CompileXIB XIBUIExample/SimpleTableViewController.xib
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module XIBUIExample --output-partial-info-plist /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/SimpleTableViewController-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 9.1 --output-format human-readable-text --compile /Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/XIBUIExample.app/SimpleTableViewController.nib /Users/mbrenneke/devel/XIBUIExample/XIBUIExample/SimpleTableViewController.xib
+2015-10-22 10:24:39.485 Interface Builder Cocoa Touch Tool[13419:319249] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{
+    ArtworkDeviceIdiom = pad;
+    ArtworkDeviceScaleFactor = "-1";
+    DevicePerformanceMemoryClass = 1;
+}'
+2015-10-22 10:24:39.486 Interface Builder Cocoa Touch Tool[13419:319249] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{
+    ArtworkDeviceIdiom = pad;
+    ArtworkDeviceScaleFactor = "-1";
+    DevicePerformanceMemoryClass = 1;
+}'
+2015-10-22 10:24:39.492 Interface Builder Cocoa Touch Tool[13419:319249] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{
+    ArtworkDeviceIdiom = pad;
+    ArtworkDeviceScaleFactor = "-1";
+    DevicePerformanceMemoryClass = 1;
+}'
+2015-10-22 10:24:39.492 Interface Builder Cocoa Touch Tool[13419:319249] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{
+    ArtworkDeviceIdiom = pad;
+    ArtworkDeviceScaleFactor = "-1";
+    DevicePerformanceMemoryClass = 1;
+}'
+2015-10-22 10:24:39.498 Interface Builder Cocoa Touch Tool[13419:319249] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{
+    ArtworkDeviceIdiom = pad;
+    ArtworkDeviceScaleFactor = "-1";
+    DevicePerformanceMemoryClass = 1;
+}'
+2015-10-22 10:24:39.499 Interface Builder Cocoa Touch Tool[13419:319249] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{
+    ArtworkDeviceIdiom = pad;
+    ArtworkDeviceScaleFactor = "-1";
+    DevicePerformanceMemoryClass = 1;
+}'
+2015-10-22 10:24:39.500 Interface Builder Cocoa Touch Tool[13419:319249] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetClass' from MGCopyAnswer got '{
+    ArtworkDeviceIdiom = pad;
+    ArtworkDeviceScaleFactor = "-1";
+    DevicePerformanceMemoryClass = 1;
+}'
+2015-10-22 10:24:39.500 Interface Builder Cocoa Touch Tool[13419:319249] CoreUI: CUICatalog: couldn't get 'kMGArtworkGraphicsFeatureSetFallbacks' from MGCopyAnswer got '{
+    ArtworkDeviceIdiom = pad;
+    ArtworkDeviceScaleFactor = "-1";
+    DevicePerformanceMemoryClass = 1;
+}'
+
+ProcessInfoPlistFile build/Debug-iphoneos/XIBUIExample.app/Info.plist XIBUIExample/Info.plist
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    builtin-infoPlistUtility /Users/mbrenneke/devel/XIBUIExample/XIBUIExample/Info.plist -genpkginfo /Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/XIBUIExample.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/SimpleTableViewController-PartialInfo.plist -additionalcontentfile /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/LaunchScreen-SBPartialInfo.plist -additionalcontentfile /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/assetcatalog_generated_info.plist -o /Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/XIBUIExample.app/Info.plist
+
+LinkStoryboards
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module XIBUIExample --target-device iphone --target-device ipad --minimum-deployment-target 9.1 --output-format human-readable-text --link /Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/XIBUIExample.app /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/Base.lproj/LaunchScreen.storyboardc
+
+ProcessProductPackaging /Users/mbrenneke/Library/MobileDevice/Provisioning\ Profiles/a6740b44-7f69-4165-b1d3-fe4f2aadbb59.mobileprovision build/Debug-iphoneos/XIBUIExample.app/embedded.mobileprovision
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    builtin-productPackagingUtility /Users/mbrenneke/Library/MobileDevice/Provisioning\ Profiles/a6740b44-7f69-4165-b1d3-fe4f2aadbb59.mobileprovision -o /Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/XIBUIExample.app/embedded.mobileprovision
+
+Touch build/Debug-iphoneos/XIBUIExample.app
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    /usr/bin/touch -c /Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/XIBUIExample.app
+
+ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/Entitlements.plist build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample.app.xcent
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample.app.xcent
+
+CodeSign build/Debug-iphoneos/XIBUIExample.app
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    
+Signing Identity:     "iPhone Developer: Matt Brenneke (8U9542CNYP)"
+Provisioning Profile: "iOSTeam Provisioning Profile: *"
+                      (a6740b44-7f69-4165-b1d3-fe4f2aadbb59)
+
+    /usr/bin/codesign --force --sign BF23627FCCECF101B6B6DF6F6D923A43FB0EAC55 --entitlements /Users/mbrenneke/devel/XIBUIExample/build/XIBUIExample.build/Debug-iphoneos/XIBUIExample.build/XIBUIExample.app.xcent --timestamp=none /Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/XIBUIExample.app
+
+Validate build/Debug-iphoneos/XIBUIExample.app
+    cd /Users/mbrenneke/devel/XIBUIExample
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/mbrenneke/devel/XIBUIExample/build/Debug-iphoneos/XIBUIExample.app
+
+** BUILD SUCCEEDED **
+
